@@ -1,0 +1,5 @@
+# Ignore IntelliJ IDEA settings
+.idea/
+
+# Ignore Python virtual environment
+venv/
