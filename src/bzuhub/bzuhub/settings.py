@@ -34,12 +34,15 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
+    # Django apps
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # Custom apps
+    "resources.apps.ResourcesConfig",
 ]
 
 MIDDLEWARE = [
@@ -110,9 +113,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "ar-PS"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Hebron"
 
 USE_I18N = True
 
