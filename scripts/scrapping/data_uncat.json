@@ -1,0 +1,890 @@
+[
+    {
+        "name_en": "Faculty of Arts",
+        "name_ar": "كلية الآداب",
+        "departments": [
+            {
+                "name_en": "Department of Arabic Language and Literature",
+                "name_ar": "دائرة اللغة العربية وآدابها",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Arabic Language and Literature",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في اللغة العربية وآدابها ",
+                        "code": "ARAB"
+                    },
+                    {
+                        "name_en": "Master Program in Arabic Language and Literature",
+                        "name_ar": "مساقات مستوى درجة الماجستير في اللغة العربية وآدابها ",
+                        "code": "ARAB"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Philosophy and Cultural Studies",
+                "name_ar": "دائرة الفلسفة والدراسات الثقافية",
+                "programs": [
+                    {
+                        "name_en": "Cultural Studies Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الدراسات الثقافية ",
+                        "code": "CULS"
+                    },
+                    {
+                        "name_en": "Minor Program in Philosophy",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الفلسفة ",
+                        "code": "PHIL"
+                    },
+                    {
+                        "name_en": "Master Program in Critical Cultural Studies",
+                        "name_ar": "مساقات مستوى درجة الماجستير في الدراسات الثقافية النقدية ",
+                        "code": "CCST"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Languages and Translation",
+                "name_ar": "دائرة اللغات والترجمة",
+                "programs": [
+                    {
+                        "name_en": "English Language Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في اللغة الانجليزية ",
+                        "code": "ENGC"
+                    },
+                    {
+                        "name_en": "Hebrew Language Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في اللغة العبرية ",
+                        "code": "HEBR"
+                    },
+                    {
+                        "name_en": "Italian Language Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في اللغة الايطالية ",
+                        "code": "ITAL"
+                    },
+                    {
+                        "name_en": "Spanish Language Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في اللغة الإسبانية ",
+                        "code": "SPAN"
+                    },
+                    {
+                        "name_en": "Turkish Language Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في اللغة التركية ",
+                        "code": "TURK"
+                    },
+                    {
+                        "name_en": "Bachelor Program in German Language",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في اللغة الالمانية ",
+                        "code": "GERM"
+                    },
+                    {
+                        "name_en": "Chinese Language Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في اللغة الصينية ",
+                        "code": "CHIN"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Translation",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الترجمة ",
+                        "code": "TRAN"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of English Language and Literature",
+                "name_ar": "دائرة اللغة الإنجليزية وآدابها",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in English Language and Literature",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في اللغة الإنجليزية وآدابها ",
+                        "code": "ENGL"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Geography",
+                "name_ar": "دائرة الجغرافية",
+                "programs": [
+                    {
+                        "name_en": "Geography Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الجغرافية ",
+                        "code": "GEOG"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Geoinformatics",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في جيوانفورماتكس ",
+                        "code": "GEOI"
+                    },
+                    {
+                        "name_en": "Master Program in Geography",
+                        "name_ar": "مساقات مستوى درجة الماجستير في الجغرافية ",
+                        "code": "GEOG"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of History and Archaeology",
+                "name_ar": "دائرة التاريخ والآثار",
+                "programs": [
+                    {
+                        "name_en": "Palestinian Archaeology Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الآثار الفلسطينية ",
+                        "code": "ARCH"
+                    },
+                    {
+                        "name_en": "History Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في التاريخ ",
+                        "code": "HIST"
+                    },
+                    {
+                        "name_en": "Master Program in Arab and Muslim History",
+                        "name_ar": "مساقات مستوى درجة الماجستير في التاريخ العربي الإسلامي ",
+                        "code": "AMHI"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Media",
+                "name_ar": "دائرة الإعلام",
+                "programs": [
+
+                    {
+                        "name_en": "Media Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الإعلام ",
+                        "code": "MDIA"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Media",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الإعلام ",
+                        "code": "MDJO"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Strategic Communication",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الاتصال الاستراتيجي ",
+                        "code": "COMM"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of French Language",
+                "name_ar": "دائرة اللغة الفرنسية",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in French Language",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في اللغة الفرنسية ",
+                        "code": "FREN"
+                    },
+                    {
+                        "name_en": "French Translation and Interpreting Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في ترجمة فرنسية تحريرية وفورية ",
+                        "code": "TIFR"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Social and Behavioral Science",
+                "name_ar": "دائرة العلوم الإجتماعية والسلوكية",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Sociology",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في علم الاجتماع ",
+                        "code": "SOCI"
+                    },
+                    {
+                        "name_en": "Anthropology Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في علم الإنسان ",
+                        "code": "ANTH"
+                    },
+                    {
+                        "name_en": "Psychology Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في علم النفس ",
+                        "code": "PSYC"
+                    },
+                    {
+                        "name_en": "Master Program in Sociology",
+                        "name_ar": "مساقات مستوى درجة الماجستير في علم الاجتماع ",
+                        "code": "SOCI"
+                    },
+                    {
+                        "name_en": "Master Program in Community Psychology",
+                        "name_ar": "مساقات مستوى درجة الماجستير في علم النفس المجتمعي ",
+                        "code": "CPSY"
+                    }
+                ]
+            }
+        ],
+        "uncat_programs": [
+            {
+                "name_en": "Palestine and Arabic Studies Program",
+                "name_ar": "مساقات مستوى درجة البكالوريوس في الدراسات العربية والفلسطينية ",
+                "code": "PASP"
+            },
+            {
+                "name_en": "Women's Studies Program",
+                "name_ar": "مساقات مستوى درجة البكالوريوس في دراسات المرأة ",
+                "code": "WOMS"
+            },
+            {
+                "name_en": "Master Program in Contemporary Arab Studies",
+                "name_ar": "مساقات مستوى درجة الماجستير في الدراسات العربية المعاصرة ",
+                "code": "ARST"
+            },
+            {
+                "name_en": "Master Program in Translation/ Interpreting in Three Languages",
+                "name_ar": "مساقات مستوى درجة الماجستير في الترجمة ثلاثي اللغة ",
+                "code": "TRIN"
+            }
+        ]
+    },
+    {
+        "name_en": "Faculty of Business and Economics",
+        "name_ar": "كلية الأعمال والاقتصاد",
+        "departments": [
+            {
+                "name_en": "Department of Accounting",
+                "name_ar": "دائرة المحاسبة",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Accounting",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في المحاسبة ",
+                        "code": "ACCT"
+                    },
+                    {
+                        "name_en": "Master Program in Accounting and Auditing",
+                        "name_ar": "مساقات مستوى درجة الماجستير في المحاسبة والتدقيق ",
+                        "code": "ACCA"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Business Administration",
+                "name_ar": "دائرة إدارة الاعمال",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Business Administration",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في إدارة الاعمال ",
+                        "code": "BUSA"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Marketing",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في التسويق ",
+                        "code": "MKET"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Economics",
+                "name_ar": "دائرة الإقتصاد",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Economics",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الإقتصاد ",
+                        "code": "ECON"
+                    },
+                    {
+                        "name_en": "Master Program in Economics",
+                        "name_ar": "مساقات مستوى درجة الماجستير في الإقتصاد ",
+                        "code": "ECON"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Finance and Banking",
+                "name_ar": "دائرة العلوم المالية والمصرفية",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Finance and Banking",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في العلوم المالية والمصرفية ",
+                        "code": "FINN"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Actuarial Finance",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في العلوم المالية الاكتوارية ",
+                        "code": "ACFI"
+                    }
+                ]
+            },
+            {
+                "name_en": "Cooperative Education Program",
+                "name_ar": "مساقات مستوى درجة البكالوريوس في التعليم التعاوني",
+                "programs": []
+            }
+        ],
+        "uncat_programs": [
+            {
+                "name_en": "Master Program in Business Administration",
+                "name_ar": "مساقات مستوى درجة الماجستير في إدارة الأعمال ",
+                "code": "BUSA"
+            },
+            {
+                "name_en": "Master Program in Executive Business Administration",
+                "name_ar": "مساقات مستوى درجة الماجستير في إدارة الأعمال التنفيذي ",
+                "code": "EMBA"
+            },
+            {
+                "name_en": "Master Program in Supply Chain Management",
+                "name_ar": "مساقات مستوى درجة الماجستير في إدارة سلسلة التوريد ",
+                "code": "MSCM"
+            }
+        ]
+    },
+    {
+        "name_en": "Faculty of Graduate Studies and Research",
+        "name_ar": "كلية الدراسات العليا والأبحاث",
+        "departments": [],
+        "uncat_programs": [
+            {
+                "name_en": "Ph. D. Program in Social Sciences",
+                "name_ar": "برنامج دكتوراه العلوم الاجتماعية ",
+                "code": "PHSS"
+            },
+            {
+                "name_en": "Ph. D. Program in Computer Science",
+                "name_ar": "برنامج دكتوراه علم الحاسوب ",
+                "code": "COMP"
+            },
+            {
+                "name_en": "Ph. D. Program in Mathematics",
+                "name_ar": "برنامج دكتوراه الرياضيات ",
+                "code": "MATH"
+            },
+            {
+                "name_en": "Ph. D. Program in Educational Development",
+                "name_ar": "برنامج دكتوراه التطوير التربوي ",
+                "code": "EDUC"
+            },
+            {
+                "name_en": "Master Program in Applied Statistics",
+                "name_ar": "مساقات مستوى درجة الماجستير في الإحصاء التطبيقي ",
+                "code": "APST"
+            },
+            {
+                "name_en": "Master Program in Water and Environmental Engineering",
+                "name_ar": "مساقات مستوى درجة الماجستير في هندسة المياه والبيئة ",
+                "code": "WEEN"
+            },
+            {
+                "name_en": "Master Program in Community and Public Health",
+                "name_ar": "مساقات مستوى درجة الماجستير في الصحة العامة والمجتمعية ",
+                "code": "HLTH"
+            },
+            {
+                "name_en": "Master Program in International Studies",
+                "name_ar": "مساقات مستوى درجة الماجستير في الدراسات الدولية ",
+                "code": "INST"
+            },
+            {
+                "name_en": "Master Program in Democracy and Human Rights",
+                "name_ar": "مساقات مستوى درجة الماجستير في الديمقراطية وحقوق الإنسان ",
+                "code": "DMHR"
+            },
+            {
+                "name_en": "Master Program in Water and Environmental Sciences",
+                "name_ar": "مساقات مستوى درجة الماجستير في علوم المياه والبيئة ",
+                "code": "WESC"
+            },
+            {
+                "name_en": "Master Program in Gender and Development Studies",
+                "name_ar": "مساقات مستوى درجة الماجستير في دراسات النوع الاجتماعي والتنمية ",
+                "code": "GADS"
+            },
+            {
+                "name_en": "Master Program in Israeli Studies",
+                "name_ar": "مساقات مستوى درجة الماجستير في الدراسات الإسرائيلية ",
+                "code": "ISST"
+            },
+            {
+                "name_en": "Master Program in Applied Statistics and Data Science",
+                "name_ar": "مساقات مستوى درجة الماجستير في الإحصاء التطبيقي وعلم البيانات ",
+                "code": "ASDS"
+            },
+            {
+                "name_en": "Master Program In INTERNATIONAL MIGRATION AND REFUGEE STUDIES",
+                "name_ar": "مساقات مستوى درجة الماجستير في برنامج ماجستير دراسات الهجرة الدولية واللجوء ",
+                "code": "IMRS"
+            },
+            {
+                "name_en": "Master Program in Renewable Energy Management",
+                "name_ar": "مساقات مستوى درجة الماجستير في إدارة الطاقة المتجددة ",
+                "code": "RENE"
+            },
+            {
+                "name_en": "Master Program in Community Development",
+                "name_ar": "مساقات مستوى درجة الماجستير في التنمية المجتمعية ",
+                "code": "CODE"
+            },
+            {
+                "name_en": "Master Program in Humanitarian Action in International Conflicts",
+                "name_ar": "مساقات مستوى درجة الماجستير في العمل الإنساني في الصراعات الدولية ",
+                "code": "HAIC"
+            },
+            {
+                "name_en": "Master Program in Law and Information Technology",
+                "name_ar": "مساقات مستوى درجة الماجستير في القانون وتكنولوجيا المعلومات ",
+                "code": "LAIT"
+            }
+        ]
+    },
+    {
+        "name_en": "Faculty of Science",
+        "name_ar": "كلية العلوم",
+        "departments": [
+            {
+                "name_en": "Department of Biology and Biochemistry",
+                "name_ar": "دائرة الأحياء والكيمياء الحيوية",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Biology",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الأحياء ",
+                        "code": "BIOL"
+                    },
+                    {
+                        "name_en": "Minor Program in Biochemistry",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الكيمياء الحيوية ",
+                        "code": "BIOC"
+                    },
+                    {
+                        "name_en": "General Science Courses GENS",
+                        "name_ar": "مساقات العلوم العامة ",
+                        "code": "GENS"
+                    },
+                    {
+                        "name_en": "Master Program in Environmental Biology",
+                        "name_ar": "مساقات مستوى درجة الماجستير في الأحياء البيئية ",
+                        "code": "BIOL"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Chemistry",
+                "name_ar": "دائرة الكيمياء",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Chemistry",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الكيمياء ",
+                        "code": "CHEM"
+                    },
+                    {
+                        "name_en": "General Science Courses GENS",
+                        "name_ar": "مساقات العلوم العامة ",
+                        "code": "GENS"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Forensic Sciences",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في علوم الأدلة الجنائية ",
+                        "code": "FRSC"
+                    },
+                    {
+                        "name_en": "Master Program in Applied Chemistry",
+                        "name_ar": "مساقات مستوى درجة الماجستير في الكيمياء التطبيقية ",
+                        "code": "CHEM"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Mathematics",
+                "name_ar": "دائرة الرياضيات",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Mathematics Applied To Economics",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الرياضيات التطبيقية في الإقتصاد ",
+                        "code": "MAEC"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Mathematics",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الرياضيات ",
+                        "code": "MATH"
+                    },
+                    {
+                        "name_en": "Minor Program in Statistics",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الاحصاء ",
+                        "code": "STAT"
+                    },
+                    {
+                        "name_en": "Master Program in Mathematics",
+                        "name_ar": "مساقات مستوى درجة الماجستير في الرياضيات ",
+                        "code": "MATH"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Physics",
+                "name_ar": "دائرة الفيزياء",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Physics",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الفيزياء ",
+                        "code": "PHYS"
+                    },
+                    {
+                        "name_en": "Master Program in Physics",
+                        "name_ar": "مساقات مستوى درجة الماجستير في الفيزياء ",
+                        "code": "PHYS"
+                    }
+                ]
+            }
+        ],
+        "uncat_programs": []
+    },
+    {
+        "name_en": "Faculty of Law and Public Administration",
+        "name_ar": "كلية الحقوق والإدارة العامة",
+        "departments": [
+            {
+                "name_en": "Department of Public Administration",
+                "name_ar": "دائرة الإدارة العامة",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Public Administration",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الإدارة العامة ",
+                        "code": "PUBA"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Law",
+                "name_ar": "دائرة القانون",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Law",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في القانون ",
+                        "code": "JURI"
+                    },
+                    {
+                        "name_en": "Master Program in Law",
+                        "name_ar": "مساقات مستوى درجة الماجستير في القانون ",
+                        "code": "JURI"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Political Science",
+                "name_ar": "دائرة العلوم السياسية",
+                "programs": [
+                    {
+                        "name_en": "Political Science Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في العلوم السياسية ",
+                        "code": "POLS"
+                    },
+                    {
+                        "name_en": "Bachelor Program in International Relations",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في العلاقات الدولية ",
+                        "code": "INRE"
+                    }
+                ]
+            }
+        ],
+        "uncat_programs": [
+            {
+                "name_en": "Master Program in Law and Economics",
+                "name_ar": "مساقات مستوى درجة الماجستير في القانون والاقتصاد ",
+                "code": "LECO"
+            },
+            {
+                "name_en": "Master Program in Government and Local Government",
+                "name_ar": "مساقات مستوى درجة الماجستير في الحكومة والحكم المحلي ",
+                "code": "GOVS"
+            }
+        ]
+    },
+    {
+        "name_en": "Faculty of Pharmacy, Nursing and Health Professions",
+        "name_ar": "كلية الصيدلة والتمريض والمهن الصحية",
+        "departments": [
+            {
+                "name_en": "Department of Nursing",
+                "name_ar": "دائرة التمريض",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Nursing",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في التمريض ",
+                        "code": "NURS"
+                    },
+                    {
+                        "name_en": "Master Program in Oncology Nursing",
+                        "name_ar": "مساقات مستوى درجة الماجستير في تمريض الأورام ",
+                        "code": "ONCN"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Nutrition and Dietetics",
+                "name_ar": "دائرة التغذية والحمية",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Nutrition and Dietetics",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في التغذية والحمية ",
+                        "code": "NUTD"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Pharmacy",
+                "name_ar": "دائرة الصيدلة",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Doctor of Pharmacy",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في دكتور صيدلي ",
+                        "code": "PHAR"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Pharmacy",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الصيدلة ",
+                        "code": "PHRB"
+                    },
+                    {
+                        "name_en": "Master Program in Industrial Pharmaceutical Technology",
+                        "name_ar": "مساقات مستوى درجة الماجستير في تكنولوجيا الصناعة الدوائية ",
+                        "code": "MIPT"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Audiology and Speech Therapy",
+                "name_ar": "دائرة علاج النطق والسمع",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Audiology and Speech Therapy",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في علاج النطق والسمع ",
+                        "code": "SPAU"
+                    }
+                ]
+            }
+        ],
+        "uncat_programs": [
+            {
+                "name_en": "Bachelor Program in Medical Laboratory Science",
+                "name_ar": "مساقات مستوى درجة البكالوريوس في العلوم الطبية المخبرية ",
+                "code": "BCLS"
+            },
+            {
+                "name_en": "Master Program in Clinical Laboratory Sciences",
+                "name_ar": "مساقات مستوى درجة الماجستير في العلوم الطبية المخبرية ",
+                "code": "MCLS"
+            },
+            {
+                "name_en": "Master Program in Women’S Health",
+                "name_ar": "مساقات مستوى درجة الماجستير في صحة المرأة ",
+                "code": "WOHE"
+            }
+        ]
+    },
+    {
+        "name_en": "Faculty of Education",
+        "name_ar": "كلية التربية",
+        "departments": [
+            {
+                "name_en": "Department of Curriculum & Instruction",
+                "name_ar": "دائرة المناهج والتعليم",
+                "programs": [
+                    {
+                        "name_en": "Education Program",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في التربية ",
+                        "code": "EDUC"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Inclusive and Special Education",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في التعليم الجامع والتربية الخاصة ",
+                        "code": "INED"
+                    },
+                    {
+                        "name_en": "Master Program in Education",
+                        "name_ar": "مساقات مستوى درجة الماجستير في التربية ",
+                        "code": "EDUC"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Physical Education",
+                "name_ar": "دائرة التربية الرياضية",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Physical Education",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في التربية الرياضية ",
+                        "code": "PHED"
+                    },
+                    {
+                        "name_en": "Master Program in Physical Education and Sports Sciences",
+                        "name_ar": "مساقات مستوى درجة الماجستير في التربية البدنية وعلوم الرياضة ",
+                        "code": "PHED"
+                    }
+                ]
+            }
+        ],
+        "uncat_programs": []
+    },
+    {
+        "name_en": "Cooperative Learning Program",
+        "name_ar": "مساقات مستوى درجة البكالوريوس في التعليم التعاوني",
+        "departments": [],
+        "uncat_programs": []
+    },
+    {
+        "name_en": "Faculty of Engineering and Technology",
+        "name_ar": "كلية الهندسة والتكنولوجيا",
+        "departments": [
+            {
+                "name_en": "Department of Architectural Engineering and Planning",
+                "name_ar": "دائرة الهندسة المعمارية والتخطيط",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Architectural Engineering",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الهندسة المعمارية ",
+                        "code": "ENAR"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Engineering in Urban Planning and Design",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في هندسة التخطيط والتصميم الحضري ",
+                        "code": "ENPL"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Civil and Environmental Engineering",
+                "name_ar": "دائرة الهندسة المدنية والبيئية",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Civil Engineering",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الهندسة المدنية ",
+                        "code": "ENCE"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Environmental Engineering",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الهندسة البيئية ",
+                        "code": "ENEV"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Construction Engineering",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في هندسة البناء ",
+                        "code": "ENBE"
+                    },
+                    {
+                        "name_en": "Master Program in Civil Engineering",
+                        "name_ar": "مساقات مستوى درجة الماجستير في الهندسة المدنية ",
+                        "code": "ENCE"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Mechanical and Mechatronics Engineering",
+                "name_ar": "دائرة الهندسة الميكانيكية والميكاترونكس",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Mechanical Engineering",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الهندسة الميكانيكية ",
+                        "code": "ENME"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Mechatronics Engineering",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في هندسة الميكاترونكس ",
+                        "code": "ENMC"
+                    },
+                    {
+                        "name_en": "Master Program in Mechanical Engineering",
+                        "name_ar": "مساقات مستوى درجة الماجستير في الهندسة الميكانيكية ",
+                        "code": "ENME"
+                    }
+                ]
+            },
+            {
+                "name_en": "Department of Computer Science",
+                "name_ar": "دائرة علم الحاسوب",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Computer Science",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في علم الحاسوب ",
+                        "code": "COMP"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Cyber Security",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في أمن المعلومات ",
+                        "code": "CSEC"
+                    }
+                ]
+            },
+            {
+                "name_en": "Cooperative Education Program",
+                "name_ar": "مساقات مستوى درجة البكالوريوس في التعليم التعاوني",
+                "programs": []
+            },
+            {
+                "name_en": "Department of Electrical and Computer Engineering",
+                "name_ar": "دائرة الهندسة الكهربائية وهندسة الحاسوب",
+                "programs": [
+                    {
+                        "name_en": "Bachelor Program in Electrical Engineering",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في الهندسة الكهربائية ",
+                        "code": "ENEE"
+                    },
+                    {
+                        "name_en": "Bachelor Program in Computer Systems Engineering",
+                        "name_ar": "مساقات مستوى درجة البكالوريوس في هندسة أنظمة الحاسوب ",
+                        "code": "ENCS"
+                    },
+                    {
+                        "name_en": "Master Program in Computer Engineering",
+                        "name_ar": "مساقات مستوى درجة الماجستير في هندسة الحاسوب ",
+                        "code": "MSCE"
+                    }
+                ]
+            }
+        ],
+        "uncat_programs": [
+            {
+                "name_en": "Master Program in Urban Planning and Landscape Architecture",
+                "name_ar": "مساقات مستوى درجة الماجستير في هندسة التخطيط العمراني وعمارة المشهد ",
+                "code": "UPLA"
+            },
+            {
+                "name_en": "Master Program in Computing",
+                "name_ar": "مساقات مستوى درجة الماجستير في الحوسبة ",
+                "code": "MCOM"
+            },
+            {
+                "name_en": "Master Program in Software Engineering",
+                "name_ar": "مساقات مستوى درجة الماجستير في هندسة البرمجيات ",
+                "code": "SWEN"
+            },
+            {
+                "name_en": "Master Program in Electrical Engineering",
+                "name_ar": "مساقات مستوى درجة الماجستير في الهندسة الكهربائية ",
+                "code": "JMEE"
+            }
+        ]
+    },
+    {
+        "name_en": "Faculty of Art, Music and Design",
+        "name_ar": "كلية الفنون والموسيقى والتصميم",
+        "departments": [],
+        "uncat_programs": [
+            {
+                "name_en": "Bachelor Program in Music",
+                "name_ar": "مساقات مستوى درجة البكالوريوس في الموسيقى ",
+                "code": "MUSI"
+            },
+            {
+                "name_en": "Bachelor Program in Contemporary Visual Art",
+                "name_ar": "مساقات مستوى درجة البكالوريوس في الفنون البصرية المعاصرة ",
+                "code": "COVA"
+            },
+            {
+                "name_en": "Bachelor Program in Design",
+                "name_ar": "مساقات مستوى درجة البكالوريوس في التصميم ",
+                "code": "DSGN"
+            },
+            {
+                "name_en": "Bachelor Program in Interior Design",
+                "name_ar": "مساقات مستوى درجة البكالوريوس في التصميم الداخلي ",
+                "code": "DSIN"
+            }
+        ]
+    },
+    {
+        "name_en": "Birzeit Community College",
+        "name_ar": "كلية كلية بيرزيت المتوسطة",
+        "departments": [],
+        "uncat_programs": [
+            {
+                "name_en": "Leadership and Civic Engagement Program",
+                "name_ar": "مساقات مستوى درجة البكالوريوس في القيادة والمواطنة الفاعلة ",
+                "code": "LRNJ"
+            }
+        ]
+    }
+]
