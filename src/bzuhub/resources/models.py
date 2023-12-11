@@ -13,10 +13,15 @@ class College(models.Model):
         verbose_name = "كلية"
         verbose_name_plural = "الكليات"
 
+    # Type hinting
+    departments: models.QuerySet["Department"]
+
 
 # those are what has grey background in https://ritaj.birzeit.edu/hemis/bu/hierarchy?mode=CB
 class Department(models.Model):
-    college = models.ForeignKey(College, on_delete=models.CASCADE)
+    college = models.ForeignKey(
+        College, on_delete=models.CASCADE, related_name="departments"
+    )
 
     name_en = models.CharField(max_length=64)
     name_ar = models.CharField(max_length=64)
@@ -29,6 +34,9 @@ class Department(models.Model):
         verbose_name = "الدائرة"
         verbose_name_plural = "الدوائر"
 
+    # Type hinting
+    majors: models.QuerySet["Major"]
+
     # TODO related to a club/club members in the FUTURE
 
 
@@ -39,7 +47,9 @@ class Major(models.Model):
         primary_key=True,
     )  # like ENCS, ARAB, ENEE, ITAL, etc...
 
-    department = models.ForeignKey(Department, on_delete=models.CASCADE)
+    department = models.ForeignKey(
+        Department, on_delete=models.CASCADE, related_name="majors"
+    )
 
     name_en = models.CharField(max_length=64)
     name_ar = models.CharField(max_length=64)
@@ -52,13 +62,16 @@ class Major(models.Model):
         verbose_name = "التخصص"
         verbose_name_plural = "التخصصات"
 
+    # Type hinting
+    courses: models.QuerySet["Course"]
+
 
 class Course(models.Model):
     course_id = models.CharField(
         max_length=10, unique=True
     )  # full course id like ENCS101, ARAB101, ENEE2133, ITAL101, etc...
 
-    major = models.ForeignKey(Major, on_delete=models.CASCADE)
+    major = models.ForeignKey(Major, on_delete=models.CASCADE, related_name="courses")
 
     name_en = models.CharField(max_length=64)
     name_ar = models.CharField(max_length=64)
