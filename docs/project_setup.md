@@ -1,5 +1,17 @@
 # Project Development Setup
 
+## Pre-requisites
+
+- try the django tutorial [link](https://docs.djangoproject.com/en/5.0/intro/tutorial01/)
+- use the official docs to learn:
+  - the basics of django
+  - file structure
+  - how their ORM works
+  - how models work
+  - url mapping
+  - views and html rendering/templating
+  - read about every topic you did not understand
+
 ## Setup database on localhost
 
 - Install **Postgresql DB Engine** >=12, [link](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
@@ -94,7 +106,9 @@
   > do not forget to activate the venv ( select its interpreter ) in your IDE ( in vscode `Ctrl + P` then `Python: Select Interpreter` )
 
   ```zsh
-  cd src
+  cd src/bzuhub
+  python manage.py migrate
+  python manage.py runserver 8080
   ```
 
 - redirect domains to 127.0.0.1
@@ -137,3 +151,7 @@
       ```
 
     - no need to flush DNS
+
+## Open the project in your browser
+
+- open your browser and go to [http://www.dev-bzuhub.com:8080](http://www.dev-bzuhub.com:8080) or [http://localhost:8080](http://localhost:8080)
