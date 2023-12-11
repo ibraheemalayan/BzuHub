@@ -9,6 +9,10 @@ class College(models.Model):
     def __str__(self):
         return self.name_ar
 
+    class Meta:
+        verbose_name = "كلية"
+        verbose_name_plural = "الكليات"
+
 
 # those are what has grey background in https://ritaj.birzeit.edu/hemis/bu/hierarchy?mode=CB
 class Department(models.Model):
@@ -20,6 +24,10 @@ class Department(models.Model):
     # used to represent the department in the admin panel
     def __str__(self):
         return self.name_ar
+
+    class Meta:
+        verbose_name = "الدائرة"
+        verbose_name_plural = "الدوائر"
 
     # TODO related to a club/club members in the FUTURE
 
@@ -40,6 +48,10 @@ class Major(models.Model):
     def __str__(self):
         return self.name_ar
 
+    class Meta:
+        verbose_name = "التخصص"
+        verbose_name_plural = "التخصصات"
+
 
 class Course(models.Model):
     course_id = models.CharField(
@@ -54,3 +66,7 @@ class Course(models.Model):
     # used to represent the course in the admin panel
     def __str__(self):
         return self.course_id + " " + self.name_en
+
+    class Meta:
+        verbose_name = "المساق"
+        verbose_name_plural = "المساقات"
