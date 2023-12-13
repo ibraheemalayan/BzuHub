@@ -2,8 +2,10 @@ from django.urls import path
 
 from . import views
 
+from .views import HomeView, CollegeListView, CollegePageView
+
 urlpatterns = [
-    path("", views.home, name="home"),
-    path("colleges/", views.college_list, name="college_list"),
-    path("colleges/<int:college_id>/", views.college_page, name="college_page"),
+    path("", HomeView.as_view(), name="home"),
+    path("colleges/", CollegeListView.as_view(), name="college_list"),
+    path("colleges/<int:college_id>/", CollegePageView.as_view(), name="college_page"),
 ]

@@ -83,3 +83,36 @@ class Course(models.Model):
     class Meta:
         verbose_name = "المساق"
         verbose_name_plural = "المساقات"
+
+
+# quizes, exams, homeworks, etc...
+class ResourceGroup(models.Model):
+    course = models.ForeignKey(
+        Course, on_delete=models.CASCADE, related_name="resource_groups"
+    )
+
+
+class Resource(models.Model):
+    title = models.CharField(max_length=64)
+    #  TODO enum
+    # resource_type = one of [formats,slides,books,book-solutions,lecture-notes,projects,other,homeworks]
+
+    # TODO make it nullable
+    resource_group = models.ForeignKey(
+        ResourceGroup, on_delete=models.CASCADE, related_name="resources"
+    )
+
+    path: str
+
+    is_link = models.BooleanField(default=False)
+
+    class Meta:
+        verbose_name = "مصدر"
+        verbose_name_plural = "مصادر"
+
+
+# TODO make courses related to departments not majors
+
+# TODO make a secondary table for majopr-course MTM relation with field for place in advisory plan
+
+# TODO add flag to each major `is_psuedo_major` to indicate if it's a real major or a pseudo major
