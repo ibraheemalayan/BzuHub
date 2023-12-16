@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <main>
+        <section>
+            <form action="/add/" method="post">
+                {% csrf_token %}
+                <h2>Registration</h2>
+                <div class="form-group row">
+                    <label for="first_name" class="col-sm-4 col-form-label">First Name</label>
+                    <div class="col-sm-8">
+                        <input type="text" name="first_name" id="first_name"  class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="last_name" class="col-sm-4 col-form-label">Last Name</label>
+                    <div class="col-sm-8">
+                        <input type="text" name="last_name" id="last_name"  class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="birthday" class="col-sm-4 col-form-label">Birthday</label>
+                    <div class="col-sm-8">
+                        <input type="date" name="birthday" id="birthday"  class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-sm-4 col-form-label">Email</label>
+                    <div class="col-sm-8">
+                        <input type="email" name="email" id="email"  class="form-control" placeholder="example@gmail.com">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="password" class="col-sm-4 col-form-label">Password</label>
+                    <div class="col-sm-8">
+                        <input type="password" name="password" id="password"  class="form-control" placeholder="Make sure to have a strong password">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="confirm_pw" class="col-sm-4 col-form-label">Confirm PW</label>
+                    <div class="col-sm-8">
+                        <input type="password" name="confirm_pw" id="confirm_pw"  class="form-control" placeholder="Retype your password">
+                    </div>
+                </div>
+                <button id="button" type="submit" class="btn btn-primary">Register</button>
+            </form>
+        </section>
+        <section>
+            <form action="/login/" method="post">
+                {% csrf_token %}
+                <h2>Login</h2>
+                <div class="form-group row">
+                    <label for="login_email" class="col-sm-3 col-form-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" name="login_email" id="login_email"  class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="login_password" class="col-sm-3 col-form-label">Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" name="login_password" id="login_password"  class="form-control">
+                    </div>
+                </div>
+                <button id="button" type="submit" class="btn btn-primary">Log In</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </footer>
+</body>
+</html>

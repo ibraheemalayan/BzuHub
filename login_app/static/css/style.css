@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    flex: 1;
+    margin: 2%;
+    padding: 2%;
+}
+
+h2 {
+    margin: 0 0 5%;
+    text-align: center;
+}
+
+#button {
+    box-shadow: 5px 5px 5px #999;
+    margin-left: 45%;
+}
+
+.messages {
+    color: red;
+    margin: 5%;
+    list-style-type: '**';
+}
+
+#success {
+    color: green;
+}
+
+#link {
+    margin-left: 90%;
+    text-decoration: underline;
+}
+
+footer {
+    padding: 0 30%;
+}
