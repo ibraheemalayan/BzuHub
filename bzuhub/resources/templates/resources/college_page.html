@@ -1,0 +1,36 @@
+{% extends 'resources/base.html' %} {% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="{% url 'college_list' %}">College List</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+            {{ college.name_en }} - {{ college.name_ar }}
+        </li>
+    </ol>
+</nav>
+
+<ul class="list-group">
+    {% for college in colleges %}
+    <li class="list-group-item">
+        <a href="{% url 'department_page' college.id %}"
+            >{{ college.name_en }} - {{ college.name_ar }}</a
+        >
+    </li>
+    {% endfor %}
+</ul>
+</ul>
+<ul class="list-group">
+  {% for department in college.departments.all %}
+  <li class="list-group-item">
+    {{ department.name_en }} - {{ department.name_ar }}
+    <ul class="list-group">
+      {% for major in department.majors.all %}
+      <li class="list-group-item">{{ major.name_en }} - {{ major.name_ar }}</li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>
+
+{% endblock %}
