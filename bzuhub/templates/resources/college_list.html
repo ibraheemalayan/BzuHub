@@ -1,0 +1,12 @@
+{% extends 'resources/base.html' %} {% block content %}
+<h1>List of Colleges</h1>
+<ul>
+  {% for college in colleges %}
+  <li>
+    <a href="{% url 'college_page' college.id %}"
+      >{{ college.name_en }} - {{ college.name_ar }}</a
+    >
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
