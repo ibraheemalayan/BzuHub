@@ -1,6 +1,5 @@
 from django.contrib import admin
-
-from .models import College, Department, Major, Course
+from .models import College, Department, Major, Course, ResourceGroup, Resource
 
 
 class CollegeAdmin(admin.ModelAdmin):
@@ -25,7 +24,7 @@ class MajorAdmin(admin.ModelAdmin):
 
 
 class CourseAdmin(admin.ModelAdmin):
-    list_display = ("course_id", "name_en", "name_ar", "major")
+    list_display = ("course_id", "name_en", "name_ar")
     search_fields = (
         "course_id",
         "name_en",
@@ -36,7 +35,19 @@ class CourseAdmin(admin.ModelAdmin):
     )
 
 
+class ResourceGroupAdmin(admin.ModelAdmin):
+    list_display = ('course',)  # Add more fields as needed
+    search_fields = ('course__course_id', 'course__name_en', 'course__name_ar')
+
+
+class ResourceAdmin(admin.ModelAdmin):
+    list_display = ('title', 'resource_group', 'resource_type', 'is_link')  # Add more fields as needed
+    search_fields = ('title', 'resource_group__course__course_id', 'resource_group__course__name_en')
+
+
 admin.site.register(College, CollegeAdmin)
 admin.site.register(Department, DepartmentAdmin)
 admin.site.register(Major, MajorAdmin)
 admin.site.register(Course, CourseAdmin)
+admin.site.register(ResourceGroup, ResourceGroupAdmin)
+admin.site.register(Resource, ResourceAdmin)
