@@ -1,0 +1,5 @@
+# Ignore IntelliJ IDEA settings
+bzuhub/.idea/
+
+# Ignore Python virtual environment
+bzuhub/venv/
